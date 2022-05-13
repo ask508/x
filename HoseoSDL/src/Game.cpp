@@ -30,25 +30,6 @@ void Game::render()
   _walker->draw(m_pRenderer);
   SDL_RenderPresent(m_pRenderer); 
 
-
-
-  // 사각형 그리기 
-  /*
-
-  SDL_Rect rect[2];
-  rect[0].x = 250;
-  rect[0].y = 150;
-  rect[0].w = 200;
-  rect[0].h = 200;
-
-  rect[1].x = 50;
-  rect[1].y = 150;
-  rect[1].w = 200;
-  rect[1].h = 200;
-
-
-  SDL_RenderDrawRects(renderer, rect,2);
-  */
 }
 
 void Game::clean() 

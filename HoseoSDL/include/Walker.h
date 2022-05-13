@@ -1,8 +1,20 @@
 #pragma once
-
+#include <stdio.h>
+#include <iostream>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL2_gfxPrimitives.h>
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
+/*
 #include "usr/include/SDL2/SDL.h"
 #include "usr/include/SDL2/SDL2_gfxPrimitives.h"
 #include "InputHandler.h"
+*/
+#include"Vector2D.h"
+#include"InputHandler.h"
+
+
 
 class Walker 
 {
