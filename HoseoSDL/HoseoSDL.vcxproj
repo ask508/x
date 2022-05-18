@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Taget.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\InputHandler.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\InputHandler.h" />
     <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\Taget.h" />
     <ClInclude Include="include\Vector2D.h" />
     <ClInclude Include="include\Walker.h" />
   </ItemGroup>

@@ -17,6 +17,7 @@
 
 class Walker;
 class Vector2D;
+class Taget;
 
 class Game {
 private:
@@ -51,6 +52,8 @@ private:
     bool m_bRunning;
 
     Walker* _walker;
+    Taget* _taget;
+
 };
 
 typedef Game TheGame;

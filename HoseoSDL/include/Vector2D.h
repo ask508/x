@@ -105,6 +105,54 @@ public:
         }
     }
 
+
+
+
+    void Add(Vector2D* scalar)
+    {
+        m_x = m_x + scalar->getX();
+        m_y = m_y + scalar->getY();
+    }
+    void Add(Vector2D scalar)
+    {
+        m_x = m_x + scalar.getX();
+        m_y = m_y + scalar.getY();
+    }
+    void Sub(Vector2D* scalar)
+    {
+        m_x = m_x - scalar->getX();
+        m_y = m_y - scalar->getY();
+    }
+    void Sub(Vector2D scalar)
+    {
+        m_x = m_x - scalar.getX();
+        m_y = m_y - scalar.getY();
+    }
+    Vector2D& Mul(float scalar)
+    {
+        m_x = m_x * scalar;
+        m_y = m_y * scalar;
+        return *this;
+    }
+    Vector2D& Div(float scalar)
+    {
+        m_x = m_x / scalar;
+        m_y = m_y / scalar;
+        return *this;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 private:
     float m_x;
     float m_y;
